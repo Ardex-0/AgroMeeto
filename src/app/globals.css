@@ -1,0 +1,179 @@
+html,
+body {
+  font-family: IRANSansX !important;
+  direction: rtl;
+  background-color: #e8edf3;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+
+}
+
+@font-face {
+  font-family: IRANSansX;
+  font-style: normal;
+  font-weight: Thin;
+  src: url("../../public/assets/fonts/IRANSansX/woff/IRANSansXFaNum-Thin.woff");
+  src: url("../../public/assets/fonts/IRANSansX/otf/IRANSansXFaNum-Thin.otf") format("opentype"),
+    url("../../public/assets/fonts/IRANSansX/woff2/IRANSansXFaNum-Thin.woff2") format("woff2"),
+    url("../../public/assets/fonts/IRANSansX/woff/IRANSansXFaNum-Thin.woff") format("woff"),
+    url("../../public/assets/fonts/IRANSansX/ttf/IRANSansXFaNum-Thin.ttf") format("truetype");
+  font-display: swap;
+}
+
+/* Thin font weight 100 */
+@font-face {
+  font-family: IRANSansX;
+  font-style: normal;
+  font-weight: UltraLight;
+  src: url("../../public/assets/fonts/IRANSansX/otf/IRANSansXFaNum-UltraLight.otf") format("opentype"),
+    url("../../public/assets/fonts/IRANSansX/woff2/IRANSansXFaNum-UltraLight.woff2") format("woff2"),
+    url("../../public/assets/fonts/IRANSansX/woff/IRANSansXFaNum-UltraLight.woff") format("woff"),
+    url("../../public/assets/fonts/IRANSansX/ttf/IRANSansXFaNum-UltraLight.ttf") format("truetype");
+  font-display: swap;
+}
+
+/* UltraLight font weight 200 */
+
+@font-face {
+  font-family: IRANSansX;
+  font-style: normal;
+  font-weight: Light;
+  src: url("../../public/assets/fonts/IRANSansX/otf/IRANSansXFaNum-Light.otf") format("opentype"),
+    url("../../public/assets/fonts/IRANSansX/woff2/IRANSansXFaNum-Light.woff2") format("woff2"),
+    url("../../public/assets/fonts/IRANSansX/woff/IRANSansXFaNum-Light.woff") format("woff"),
+    url("../../public/assets/fonts/IRANSansX/ttf/IRANSansXFaNum-Light.ttf") format("truetype");
+  font-display: swap;
+}
+
+/* Light font weight 300 */
+
+@font-face {
+  font-family: IRANSansX;
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../public/assets/fonts/IRANSansX/otf/IRANSansXFaNum-Regular.otf") format("opentype"),
+    url("../../public/assets/fonts/IRANSansX/woff2/IRANSansXFaNum-Regular.woff2") format("woff2"),
+    url("../../public/assets/fonts/IRANSansX/woff/IRANSansXFaNum-Regular.woff") format("woff"),
+    url("../../public/assets/fonts/IRANSansX/ttf/IRANSansXFaNum-Regular.ttf") format("truetype");
+  font-display: swap;
+}
+
+/* Light font weight 400 */
+
+@font-face {
+  font-family: IRANSansX;
+  font-style: normal;
+  font-weight: Medium;
+  src: url("../../public/assets/fonts/IRANSansX/woff2/IRANSansXFaNum-Medium.woff2");
+  src: url("../../public/assets/fonts/IRANSansX/woff2/IRANSansXFaNum-Medium.woff2?#iefix") format("woff2"),
+    url("../../public/assets/fonts/IRANSansX/otf/IRANSansXFaNum-Medium.otf") format("opentype"),
+    url("../../public/assets/fonts/IRANSansX/woff/IRANSansXFaNum-Medium.woff") format("woff"),
+    url("../../public/assets/fonts/IRANSansX/ttf/IRANSansXFaNum-Medium.ttf") format("truetype");
+  font-display: swap;
+}
+
+/* Light font weight 500 */
+
+@font-face {
+  font-family: IRANSansX;
+  font-style: normal;
+  font-weight: bold;
+  src: url("../../public/assets/fonts/IRANSansX/otf/IRANSansXFaNum-DemiBold.otf") format("opentype"),
+    url("../../public/assets/fonts/IRANSansX/woff2/IRANSansXFaNum-DemiBold.woff2") format("woff2"),
+    url("../../public/assets/fonts/IRANSansX/woff/IRANSansXFaNum-DemiBold.woff") format("woff"),
+    url("../../public/assets/fonts/IRANSansX/ttf/IRANSansXFaNum-DemiBold.ttf") format("truetype");
+  font-display: swap;
+}
+
+/* Light font weight 600 */
+
+@font-face {
+  font-family: IRANSansX;
+  font-style: normal;
+  font-weight: bold;
+  src: url("../../public/assets/fonts/IRANSansX/otf/IRANSansXFaNum-Bold.otf") format("opentype"),
+    url("../../public/assets/fonts/IRANSansX/woff2/IRANSansXFaNum-Bold.woff2") format("woff2"),
+    url("../../public/assets/fonts/IRANSansX/woff/IRANSansXFaNum-Bold.woff") format("woff"),
+    url("../../public/assets/fonts/IRANSansX/ttf/IRANSansXFaNum-Bold.ttf") format("truetype");
+  font-display: swap;
+}
+
+/* Light font weight 700 */
+
+@font-face {
+  font-family: IRANSansX;
+  font-style: normal;
+  font-weight: 800;
+  src: url("../../public/assets/fonts/IRANSansX/otf/IRANSansXFaNum-ExtraBold.otf") format("opentype"),
+    url("../../public/assets/fonts/IRANSansX/woff2/IRANSansXFaNum-ExtraBold.woff2") format("woff2"),
+    url("../../public/assets/fonts/IRANSansX/woff/IRANSansXFaNum-ExtraBold.woff") format("woff"),
+    url("../../public/assets/fonts/IRANSansX/ttf/IRANSansXFaNum-ExtraBold.ttf") format("truetype");
+  font-display: swap;
+}
+
+/* Light font weight 800 */
+
+@font-face {
+  font-family: IRANSansX;
+  font-style: normal;
+  font-weight: 900;
+  src: url("../../public/assets/fonts/IRANSansX/otf/IRANSansXFaNum-Black.otf") format("opentype"),
+    url("../../public/assets/fonts/IRANSansX/woff2/IRANSansXFaNum-Black.woff2") format("woff2"),
+    url("../../public/assets/fonts/IRANSansX/woff/IRANSansXFaNum-Black.woff") format("woff"),
+    url("../../public/assets/fonts/IRANSansX/ttf/IRANSansXFaNum-Black.ttf") format("truetype");
+  font-display: swap;
+}
+
+/* Light font weight 900 */
+
+/* RPM */
+@font-face {
+  font-family: RPM;
+  font-style: normal;
+  font-weight: 600;
+  src: url("../../public/assets/fonts/RPM/otf/RPM.otf") format("opentype");
+  font-display: swap;
+}
+
+
+
+/* swiper slider */
+
+.swiper {
+  padding: 1rem !important;
+}
+
+@media screen and (max-width: 1023px) {
+
+  .swiper {
+    padding: 1rem !important;
+  }
+
+}
+
+.swiper-button-prev {
+  color: #008B45 !important;
+}
+
+.swiper-button-next {
+  color: #048f4a !important;
+}
+
+
+/* Scrollbar style */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #E7EDF3;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #008B45;
+  border-radius: 6px;
+}
+
+.swiper-pagination-bullet {
+  background-color: #008B45 !important;
+}
