@@ -1,10 +1,9 @@
-import Footer from "@/components/Footer/Footer";
 import "./globals.css";
 import "./AgroyaarStyle.css"
-import Navbar from "@/components/Navbar/Navbar";
 import HotjarComponent from "@/components/Helmet/Helmet";
+import AgroMeet from "./agromeet/page";
 
-export default function RootLayout({ children }) {
+export default function RootLayout() {
   const metadata = {
     title: "اگرویار | پلتفرم جامع خدمات کشاورزی",
     description: "اگرویار تمام نیازهای کشاورزی شما از خدمات برنامه کودی گرفته تا بازدید تخصصی، مدیریت مزرعه، مدیریت علف‌های هرز، آزمایشات آب و خاک و ... را برطرف می‌کند.",
@@ -18,9 +17,9 @@ export default function RootLayout({ children }) {
       </head>
       <body>
         <HotjarComponent />
-        <Navbar />
-        {children}
-        <Footer />
+      
+        <AgroMeet />
+      
       </body>
     </html>
   )
