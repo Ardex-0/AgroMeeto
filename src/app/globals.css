@@ -135,31 +135,6 @@ body {
   font-display: swap;
 }
 
-
-
-/* swiper slider */
-
-.swiper {
-  padding: 1rem !important;
-}
-
-@media screen and (max-width: 1023px) {
-
-  .swiper {
-    padding: 1rem !important;
-  }
-
-}
-
-.swiper-button-prev {
-  color: #008B45 !important;
-}
-
-.swiper-button-next {
-  color: #048f4a !important;
-}
-
-
 /* Scrollbar style */
 ::-webkit-scrollbar {
   width: 8px;
@@ -170,10 +145,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #008B45;
+  background-color: #4550c4;
   border-radius: 6px;
 }
 
-.swiper-pagination-bullet {
-  background-color: #008B45 !important;
-}

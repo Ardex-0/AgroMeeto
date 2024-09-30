@@ -214,11 +214,9 @@
   .agroyaar-button {
     color: white;
     border-radius: 20px;
-    background: linear-gradient(
-        92deg,
+    background: linear-gradient(92deg,
         rgba(255, 255, 255, 0.2) 6.18%,
-        rgba(255, 255, 255, 0) 97.85%
-      ),
+        rgba(255, 255, 255, 0) 97.85%),
       var(--agrolab, #008b44) !important;
     box-shadow: 1px 1px 16px -4px #059c4e, -4px -4px 12px 0px #fff;
   }
@@ -226,11 +224,9 @@
   .lab-button {
     color: white;
     border-radius: 20px;
-    background: linear-gradient(
-        92deg,
+    background: linear-gradient(92deg,
         rgba(255, 255, 255, 0.2) 6.18%,
-        rgba(255, 255, 255, 0) 97.85%
-      ),
+        rgba(255, 255, 255, 0) 97.85%),
       var(--agrolab, #e44619) !important;
     box-shadow: 1px 1px 16px -4px #dc4418, -4px -4px 12px 0px #fff;
   }
@@ -238,34 +234,33 @@
   .nutrition-program-button {
     color: white;
     border-radius: 15px;
-    background: linear-gradient(
-      135deg,
-      #02b6ac -0.59%,
-      #00817a 100%
-    ) !important;
+    background: linear-gradient(135deg,
+        #02b6ac -0.59%,
+        #00817a 100%) !important;
     box-shadow: -2px -2px 15px 0px #fff, 0px 0px 16px 0px rgba(2, 182, 172, 0.6);
   }
 
   .water-button {
     color: white;
     border-radius: 20px;
-    background: linear-gradient(
-        92deg,
+    background: linear-gradient(92deg,
         rgba(255, 255, 255, 0.2) 6.18%,
-        rgba(255, 255, 255, 0) 97.85%
-      ),
+        rgba(255, 255, 255, 0) 97.85%),
       var(--agrolab, #005ac8) !important;
     box-shadow: 1px 1px 16px -4px #005ac8, -4px -4px 12px 0px #fff;
+  }
+
+
+  .meet-shadow {
+    box-shadow: 0px 14px 32px -4px rgba(6, 14, 90, 0.75), -4px -4px 12px 0px #303993;
   }
 
   .visit-button {
     color: white;
     border-radius: 15px;
-    background: linear-gradient(
-      135deg,
-      #5ecedd -0.59%,
-      #008ea0 100%
-    ) !important;
+    background: linear-gradient(135deg,
+        #5ecedd -0.59%,
+        #008ea0 100%) !important;
     box-shadow: -2px -2px 15px 0px #ecf2f8,
       0px 0px 10px 0px rgba(11, 149, 167, 0.31);
   }
